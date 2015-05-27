@@ -7,7 +7,7 @@ describe('pigLatin', function() {
     expect(pigLatin("cat")).to.equal("atcay");
   });
 
-  // it("will move consonants to the end of a word and add ay if the word begins with a consonant", function() {
-  //   expect(pigLatin("chat")).to.equal("atchay");
-
+  it("will move consonants to the end of a word and add ay if the word begins with a consonant", function() {
+    expect(pigLatin("chat")).to.equal("atchay");
+  });
 });
